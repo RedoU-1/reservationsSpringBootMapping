@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 /**
  *
  */
-public class LocaliltyController {
+
 
     @Controller
     public class LocalityController {
@@ -43,6 +43,8 @@ public class LocaliltyController {
 
             return "locality/show";
         }
+        
+        
 
-    }
+    
 }
